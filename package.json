@@ -1,0 +1,16 @@
+{
+  "name": "blogpost",
+  "version": "1.0.0",
+  "description": "Blog API Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Val Singhal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "uuid": "^3.2.1"
+  }
+}

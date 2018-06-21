@@ -4,7 +4,7 @@
   "description": "Blog API Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "author": "Val Singhal",
   "license": "ISC",
@@ -12,5 +12,10 @@
     "express": "^4.16.3",
     "morgan": "^1.9.0",
     "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0"
   }
 }

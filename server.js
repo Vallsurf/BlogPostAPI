@@ -9,6 +9,10 @@ const blogPostRouter = require('./BlogPostRouter');
 app.use(morgan('common')); 
 app.use(express.json()); 
 
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/views/index.html");
+});
+
 app.use('/BlogPosts', blogPostRouter);
 
 // both runServer and closeServer need to access the same
